@@ -1,6 +1,6 @@
 Here’s the **README.md** content in Markdown format that you can drop straight into your repo:
 
-```markdown
+
 # MLOps Project – Jenkins & GCP Deployment 🚀
 
 ## 📌 Overview
@@ -20,11 +20,11 @@ The pipeline automates the process of:
 ---
 
 ## 🏗️ Pipeline Architecture
-```
+
 
 GitHub Repo → Jenkins Pipeline → Docker Image → GCP Deployment
 
-````
+
 
 - **Source Control**: GitHub  
 - **CI/CD Orchestration**: Jenkins (running in a Dockerized environment with Docker-in-Docker support)  
@@ -103,7 +103,7 @@ Depending on your target:
 
 ## 📂 Project Structure
 
-```
+
 ML_OPS_PROJECT/
 ├── data/                 # Dataset or sample data
 ├── src/                  # Source code for ML model
@@ -112,7 +112,7 @@ ML_OPS_PROJECT/
 ├── Dockerfile            # Container specification
 ├── Jenkinsfile           # CI/CD pipeline definition
 └── README.md             # Project documentation
-```
+
 
 ---
 
@@ -153,9 +153,3 @@ This project is licensed under the MIT License.
 
 ✨ With this setup, your ML pipeline is fully automated: **push code → Jenkins builds → Docker packages → GCP deploys**.
 
-```
-
----
-
-👉 Do you want me to also add a **badges section** (build status, Docker pulls, GCP deploy) at the top of the README for a more professional GitHub look?
-```
